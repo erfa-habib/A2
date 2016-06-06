@@ -1,1 +1,43 @@
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: small-caps;
+    font-family: courier;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    width: 200px;
+    
+}
+#title {
+   margin-top: 40px;
+   border-style: dotted;
 
+}
+#highscore {
+    margin-top: 20px;
+    border-style: dotted;
+}
+
+#start {
+    margin-top: 80px;
+    border-style: solid;
+    width: 150px;
+}
+section {
+    background-color: #000000;
+    width: 360px;
+    height: 360px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
